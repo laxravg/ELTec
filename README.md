@@ -8,8 +8,8 @@ The Spanish ELTeC subcorpus consists of 87 XML-encoded literary texts from diffe
 
 ### Data Structure
 The folder contains 2 kind of files: 
-- XML original ELTec files: Contains the original Spanish ELTec level 1 data
-- Annotated files: Contains the annotated version of the corpus using spaCy, including part-of-speech tags and named entities. This type of files end with the suffix "_annotated.xml"
+- XML original ELTec files: Contain the original Spanish ELTec level 1 data
+- Annotated files: Contain the annotated version of the corpus using spaCy, including part-of-speech tags and named entities. This type of files end with the suffix "_annotated.xml"
 
 ## Experiment files
 The experiment files are the jupyter notebooks named "SentimentAnalysis.ipynb" and "All_instances.ipynb".
