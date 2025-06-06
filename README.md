@@ -37,6 +37,7 @@ The experiment files are the jupyter notebooks named "SentimentAnalysis.ipynb" a
    - Retained top 30 results by confidence score for analysis
    - Resulting files: 
         - sentiment.csv: shows the results using the transformer model. 
+        - all_countries.csv: shows the results of the analysis using all the instances of the corpus (not only the ones with the highest confidence score). 
 
 
 3. **Visualization**:
