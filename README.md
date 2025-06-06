@@ -16,7 +16,7 @@ The experiment files are the jupyter notebooks named "SentimentAnalysis.ipynb" a
 
 - The `SentimentAnalysis.ipynb` notebook was used to conduct experiments using only 30 of the instances that obtained the highest confidence score when analyzing the sentiment of the text window.
 
-- The `All_instances` analysis includes results from all instances that mentioned one of the locations of interest. This was done in order to analyze how many times foreign location were mentioned across the corpus, not taking into account the confidence score of the sentiment classification.
+- The `All_Instances` analysis includes results from all instances that mentioned one of the locations of interest. This was done in order to analyze how many times foreign location were mentioned across the corpus, not taking into account the confidence score of the sentiment classification.
 
 ## Methodology of the experiments
 ### Data Preprocessing
@@ -45,15 +45,17 @@ The experiment files are the jupyter notebooks named "SentimentAnalysis.ipynb" a
     - Applied TF-IDF filtering to remove common, uninformative terms
     - Generated word clouds for each location-sentiment-period combination
 
-## Results
-### Sentiment Analysis
-- The `SentimentAnalysis.ipynb` notebook was used to conduct experiments on texts from countries with the highest confidence scores.
-- The `All_instances` analysis includes results from all files in the ELTec subcorpus.
 
 ### Output Files
 - `results/` directory contains:
   - Processed text windows (`.txt` files)
   - Word clouds visualization in the "WordCloud" folder
+- `Name Entity Extraction/` directory contains:
+    - entities_frequency.csv: shows the results using spaCY.
+    - filtered_entities.csv: shows the results using the transformer model.
+- `data/` directory contains:
+    - sentiment.csv: shows the results using the transformer model. 
+    - all_countries.csv: shows the results of the analysis using all the instances of the corpus.
 
 ## Usage
 To reproduce the analysis:
